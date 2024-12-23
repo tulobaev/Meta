@@ -1,0 +1,630 @@
+@media (max-width: 1150px) {
+  .tab-box {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-left: 10%;
+  }
+}
+@media (max-width: 1100px) {
+  .girl-btn button:first-child {
+    width: 180px;
+    font-size: 12px;
+  }
+  .girl-btn button:last-child {
+    width: 180px;
+    padding-left: 1px;
+    font-size: 12px;
+  }
+  .girl-text {
+    max-width: 430px;
+    width: 100%;
+  }
+
+  .header nav {
+    display: none;
+  }
+  .burger-menu {
+    display: block;
+  }
+}
+@media (max-width: 1030px) {
+  .tab-box {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-left: 5%;
+  }
+  .girl-text {
+    max-width: 370px;
+    width: 100%;
+  }
+}
+@media (max-width: 1000px) {
+  .girl-text {
+    max-width: 400px;
+    width: 100%;
+  }
+  .girl .img-1 {
+    display: none;
+  }
+}
+@media (max-width: 947px) {
+  .girl-btn button:first-child {
+    width: 180px;
+    font-size: 12px;
+  }
+  .girl-btn button:last-child {
+    width: 180px;
+    padding-left: 1px;
+    font-size: 12px;
+  }
+  .tab-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .box-1 {
+    max-width: 500px;
+    max-height: 600px;
+    width: 100%;
+    height: 100%;
+    background: #090823;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  .box-2 {
+    display: none;
+  }
+  .park {
+    flex-direction: column;
+  }
+  .park-img {
+    display: none;
+  }
+  .park-2 {
+    display: block;
+  }
+  .park-h1 {
+    display: flex;
+  }
+}
+@media (max-width: 900px) {
+  .girl-box {
+    display: none;
+  }
+  #girl {
+    padding-block: 60px;
+  }
+  .header h1 {
+    font-size: 30px;
+  }
+  .burger-menu {
+    font-size: 50px;
+  }
+  .girl-text {
+    max-width: 600px;
+    width: 100%;
+    text-align: center;
+    gap: 20px;
+  }
+  .girl {
+    flex-direction: column-reverse;
+  }
+  .girl-box h2 {
+    position: absolute;
+    top: 20%;
+    left: 20%;
+  }
+  .girl-box h3 {
+    position: absolute;
+    top: 89%;
+    right: 20%;
+  }
+  .girl-box h4 {
+    position: absolute;
+    top: 40%;
+    left: 25%;
+  }
+  .girl-text p {
+    padding-left: 10px;
+  }
+  .girl-btn button:last-child {
+    padding-left: 24%;
+    max-width: 80px;
+    width: 100%;
+  }
+  .what {
+    flex-direction: column;
+  }
+
+  .what-text p {
+    font-size: 22px;
+    max-width: 520px;
+    max-height: 90px;
+    text-align: start;
+  }
+  .what-text h1 {
+    text-align: start;
+  }
+}
+
+@media (max-width: 777px) {
+  .what {
+    flex-direction: column;
+  }
+
+  .what-text p {
+    font-size: 17px;
+    max-width: 520px;
+    max-height: 90px;
+    text-align: start;
+  }
+  .what-text h1 {
+    text-align: start;
+  }
+}
+
+@media (max-width: 771px) {
+  .tab-text h1 {
+    font-weight: 400;
+    max-width: 500px;
+    max-height: 64px;
+    width: 100%;
+    text-align: center;
+  }
+  #girl {
+    padding-block: 50px;
+  }
+  .header h1 {
+    font-size: 30px;
+  }
+  .burger-menu {
+    font-size: 50px;
+  }
+  .girl-text {
+    max-width: 520px;
+    width: 100%;
+    text-align: center;
+    gap: 20px;
+  }
+  .girl {
+    flex-direction: column-reverse;
+  }
+
+  .girl-text p {
+    padding-left: 8px;
+  }
+  .girl-btn button:last-child {
+    max-width: 200px;
+    width: 100%;
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 708px) {
+  .girl-btn button:first-child {
+    width: 170px;
+    height: 35px;
+  }
+  .girl-btn button:last-child {
+    width: 170px;
+    height: 35px;
+    padding-left: 1px;
+  }
+}
+@media (max-width: 518px) {
+  .girl-btn button:first-child {
+    width: 150px;
+    height: 30px;
+  }
+  .girl-btn button:last-child {
+    width: 150px;
+    padding-left: 1px;
+  }
+  .what {
+    flex-direction: column;
+  }
+
+  .what-text p {
+    font-size: 12px;
+    max-width: 520px;
+    max-height: 90px;
+    text-align: start;
+  }
+  .what-text h1 {
+    text-align: start;
+  }
+}
+
+@media (max-width: 555px) {
+  .tab-icon {
+    display: block;
+  }
+  /* .tab-ti {
+    display: block;
+    justify-content: space-between;
+  } */
+  .tab-text {
+    padding-left: 0;
+  }
+  .tab-text p {
+    max-width: 500px;
+    max-height: 64px;
+    width: 100%;
+    text-align: start;
+  }
+  .tab-text h1 {
+    text-align: start;
+    font-size: 22px;
+    font-weight: 700;
+    max-width: 300px;
+    width: 100%;
+  }
+  .tab-text span {
+    font-size: 22px;
+    font-weight: 700;
+  }
+  .box-1 {
+    max-width: 600px;
+    max-height: 700px;
+    width: 100%;
+    height: 100%;
+    background: #090823;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  .tab-btn button:first-child {
+    background: linear-gradient(97.16deg, #d10ed1 12.04%, #10a3da 81.84%);
+    max-width: 90px;
+    width: 100%;
+    padding: 12px 14px 12px 14px;
+    color: #ffffff;
+    border-radius: 5px;
+
+    font-size: 10px;
+    font-weight: 500;
+    border: none;
+  }
+  .tab-btn button:last-child {
+    background: none;
+    max-width: 90px;
+    width: 100%;
+    padding: 12px 14px 12px 14px;
+    color: #ffffff;
+    border-radius: 5px;
+    font-family: Poppins, sans-serif;
+    font-size: 10px;
+    font-weight: 500;
+    border: 2px solid #7113a4;
+  }
+
+  .header h1 {
+    font-size: 24px;
+  }
+  .burger-menu {
+    font-size: 40px;
+  }
+  .girl-img .img-2 {
+    max-width: 370px;
+    max-height: 370px;
+    width: 100%;
+  }
+  .girl-text {
+    max-width: 370px;
+    width: 100%;
+    text-align: center;
+    gap: 20px;
+  }
+  .girl {
+    flex-direction: column-reverse;
+  }
+  .girl-box {
+    display: none;
+  }
+  .girl-text p {
+    padding-left: 3px;
+    font-size: 14px;
+  }
+  .girl-btn {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    padding-left: 10%;
+  }
+  .tab2-3 {
+    gap: 30px;
+  }
+}
+@media (max-width: 500px) {
+  #girl {
+    padding-block: 40px;
+  }
+  .header h1 {
+    font-size: 30px;
+  }
+  .burger-menu {
+    font-size: 50px;
+  }
+
+  .girl-text {
+    max-width: 650px;
+    width: 100%;
+    text-align: center;
+    gap: 16px;
+  }
+  .girl {
+    flex-direction: column-reverse;
+  }
+  .girl-box {
+    display: none;
+  }
+  .girl-text p {
+    padding-left: 25px;
+  }
+  .girl-btn {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    padding-left: 1px;
+  }
+}
+@media (max-width: 489px) {
+  .header h1 {
+    font-size: 22px;
+  }
+  .burger-menu {
+    font-size: 28px;
+  }
+  .girl-box-2 {
+    display: block;
+  }
+  .girl-box-2 h3 {
+    position: absolute;
+    left: 27%;
+    top: 4%;
+    font-size: 12px;
+    font-weight: 300;
+  }
+  .girl-box-2 h2 {
+    position: absolute;
+    left: 5%;
+    top: 20%;
+    font-size: 10px;
+    font-weight: 300;
+  }
+  .girl-box-2 h4 {
+    position: absolute;
+    right: 2%;
+    top: 8%;
+    font-size: 10px;
+    font-weight: 300;
+  }
+
+  .girl-btn button:first-child {
+    width: 120px;
+    font-size: 12px;
+    padding-left: 10px;
+  }
+  .girl-btn button:last-child {
+    width: 120px;
+    padding-left: 1px;
+    font-size: 12px;
+  }
+  .tab-text p {
+    font-size: 12px;
+    font-weight: 300;
+    max-width: 550px;
+    max-height: 54px;
+    width: 100%;
+  }
+  .box-1 h1 {
+    font-size: 12px;
+    font-weight: 600;
+    max-width: 274px;
+    max-height: 25px;
+    width: 100%;
+  }
+  .box-1 p {
+    font-size: 9px;
+    font-weight: 400;
+  }
+  .box-1 {
+    gap: 10px;
+  }
+  .park {
+    gap: 30px;
+  }
+  .park h1,
+  .park p {
+    text-align: start;
+  }
+
+  .park-2 img {
+    max-width: 400px;
+    width: 100%;
+    border: 1px solid #10a3da;
+    border-radius: 10%;
+  }
+  .park-h1 {
+    align-items: center;
+    max-width: 400px;
+    width: 100%;
+  }
+  .park-h1 p {
+    font-size: 40px;
+  }
+  .park-h1 h1 {
+    font-size: 22px;
+    font-weight: 400;
+    max-width: 200px;
+    width: 100%;
+  }
+  .footer-tab {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .tab-3 h1 {
+    display: none;
+  }
+  .tab-3 p {
+    font-size: 13px;
+    font-weight: 300;
+  }
+  .tab2-3 {
+    justify-content: space-between;
+  }
+  .tab-2 {
+    max-width: 100px;
+    width: 100%;
+  }
+}
+@media (max-width: 480px) {
+  .park-text h1 {
+    font-size: 22px;
+  }
+  .container {
+    width: 100%;
+  }
+
+  .girl-btn button:first-child {
+    width: 120px;
+    font-size: 10px;
+    padding-left: 10px;
+  }
+  .girl-btn button:last-child {
+    width: 120px;
+    padding-left: 1px;
+    font-size: 10px;
+  }
+  .tab-btn button:first-child {
+    width: 90px;
+
+    font-size: 9px;
+  }
+  .tab-btn button:last-child {
+    width: 90px;
+    font-size: 9px;
+  }
+  #girl {
+    padding-block: 20px;
+  }
+  .header h1 {
+    font-size: 20px;
+  }
+  .burger-menu {
+    font-size: 28px;
+  }
+
+  .girl-img .img-2 {
+    max-width: 600px;
+    max-height: 600px;
+    width: 100%;
+    padding-left: 40px;
+  }
+  .girl-text {
+    max-width: 700px;
+    width: 100%;
+    text-align: center;
+    gap: 20px;
+    padding-left: 30px;
+  }
+  .girl-text h1 {
+    font-size: 23px;
+    max-width: 650px;
+  }
+  .girl-text h1 span {
+    font-size: 23px;
+  }
+  .girl {
+    flex-direction: column-reverse;
+  }
+  .girl-box {
+    display: none;
+  }
+  .girl-text p {
+    padding-left: 10px;
+    font-size: 12px;
+    max-width: 200px;
+  }
+  .what {
+    flex-direction: column;
+  }
+
+  .what-text p {
+    font-size: 12px;
+    max-width: 520px;
+    max-height: 90px;
+    text-align: start;
+  }
+  .what-text h1 {
+    text-align: start;
+    font-size: 22px;
+  }
+}
+@media (max-width: 460px) {
+  .girl-img .img-2 {
+    max-width: 900px;
+    width: 100%;
+    padding-left: 30px;
+  }
+  .girl-text {
+    max-width: 700px;
+    width: 100%;
+    text-align: center;
+    gap: 20px;
+    padding-left: 10px;
+  }
+  .girl-text h1 {
+    font-size: 24px;
+    max-width: 250px;
+    max-height: 50px;
+    margin-left: 12%;
+  }
+  .girl-text p {
+    margin-left: 70px;
+  }
+  .girl-text h1 span {
+    font-size: 24px;
+  }
+  .girl-btn {
+    margin-left: 10%;
+  }
+  .container {
+    width: 98%;
+  }
+  .what-text {
+    gap: 20px;
+  }
+  .what-text p {
+    max-width: 250px;
+    width: 100%;
+  }
+  .what-text button {
+    padding: 10px 5px;
+    border-radius: 10px;
+  }
+  .tab-btn button:first-child {
+    /* width: 80px; */
+    padding: 5px 3px;
+    font-size: 8px;
+  }
+  .tab-btn button:last-child {
+    /* width: 80px; */
+    font-size: 8px;
+    padding: 2px 3px;
+  }
+  .box-1 {
+    max-width: 650px;
+    max-height: 700px;
+    width: 100%;
+  }
+  .box-1 p {
+    font-size: 13px;
+  }
+  .box-1 h1 {
+    font-size: 18px;
+  }
+}

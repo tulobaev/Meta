@@ -1,0 +1,507 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Orbitron, sans-serif;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1400px;
+  width: 100%;
+  padding-inline: 30px;
+  margin-inline: auto;
+}
+body {
+  background: #010209;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #ffffff;
+}
+p {
+  color: #ffffff78;
+  font-family: Poppins, sans-serif;
+}
+#header {
+  padding-block: 40px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header h1 {
+  font-size: clamp(1rem, 0.875rem + 0.63vw, 1.375rem);
+  font-weight: 700;
+  color: #ffffff;
+}
+.header nav a {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  color: #ffffff;
+}
+.burger-menu {
+  display: none;
+  justify-content: end;
+  font-size: 40px;
+  color: hsl(192, 16%, 94%);
+}
+
+nav {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+}
+#girl {
+  padding-block: 20px;
+  position: relative;
+}
+.girl {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.girl-text {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  max-width: 612px;
+  width: 100%;
+}
+.girl-text h1 {
+  font-size: clamp(2rem, 1.729rem + 1.35vw, 2.813rem);
+  font-weight: 600;
+  max-width: 612px;
+  width: 100%;
+}
+.girl-text h1 span {
+  font-size: clamp(2rem, 1.729rem + 1.35vw, 2.813rem);
+  font-weight: 600;
+  background-image: linear-gradient(97.16deg, #f86cf8 12.04%, #64cef5 81.84%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.girl-text p {
+  font-family: Poppins, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  max-width: 420px;
+}
+.girl-box {
+  display: flex;
+  justify-content: flex-start;
+  gap: 12%;
+}
+.girl-box-2 {
+  display: none;
+}
+.girl-btn button:first-child {
+  background: linear-gradient(97.16deg, #d10ed1 12.04%, #10a3da 81.84%);
+  max-width: 220px;
+  width: 100%;
+  padding: 12px 14px 12px 14px;
+  color: #ffffff;
+  border-radius: 5px;
+  font-family: Poppins, sans-serif;
+  font-size: clamp(0.938rem, 0.833rem + 0.52vw, 1.25rem);
+  font-weight: 500;
+  border: none;
+}
+.girl-btn button:last-child {
+  background: none;
+  max-width: 220px;
+  width: 100%;
+  padding: 12px 14px 12px 14px;
+  color: #ffffff;
+  border-radius: 5px;
+  font-family: Poppins, sans-serif;
+  font-size: clamp(0.938rem, 0.833rem + 0.52vw, 1.25rem);
+  font-weight: 500;
+  border: 2px solid #7113a4;
+}
+.girl-box h2 {
+  font-family: Orbitron;
+  font-size: clamp(1.125rem, 1rem + 0.63vw, 1.5rem);
+  font-weight: 500;
+}
+.girl-box h3 {
+  font-family: Orbitron;
+  font-size: clamp(1.125rem, 1rem + 0.63vw, 1.5rem);
+  font-weight: 500;
+}
+.girl-box h4 {
+  font-family: Orbitron;
+  font-size: clamp(1.125rem, 1rem + 0.63vw, 1.5rem);
+  font-weight: 500;
+}
+.girl-box span {
+  font-family: Poppins;
+  font-size: clamp(0.75rem, 0.625rem + 0.63vw, 1.125rem);
+  font-weight: 400;
+}
+.girl .img-1 {
+  position: absolute;
+  top: 35%;
+  left: 60%;
+}
+.girl-img .img-2 {
+  max-width: 600px;
+  width: 100%;
+}
+#what {
+  padding-block: 40px;
+}
+.what {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 40px;
+}
+.what img {
+  max-width: 532px;
+  max-height: 439px;
+  width: 100%;
+}
+.what-text {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  max-width: 524px;
+  max-height: 246px;
+}
+.what-text h1 {
+  font-family: Orbitron;
+  font-size: clamp(1.563rem, 1.354rem + 1.04vw, 2.188rem);
+  font-weight: 600;
+  max-width: 370px;
+  width: 100%;
+}
+.what-text span {
+  font-family: Orbitron;
+  font-size: clamp(1.563rem, 1.354rem + 1.04vw, 2.188rem);
+  font-weight: 600;
+  background-image: linear-gradient(97.16deg, #f86cf8 12.04%, #64cef5 81.84%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.what-text p {
+  font-family: Poppins;
+  font-size: clamp(0.688rem, 0.542rem + 0.73vw, 1.125rem);
+  font-weight: 400;
+  max-width: 400px;
+  max-height: 90px;
+}
+.what-text button {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 500;
+  color: #ffffff;
+  max-width: 120px;
+  border: none;
+  padding: 2px;
+  width: 100%;
+  background: linear-gradient(97.16deg, #d10ed1 12.04%, #10a3da 81.84%);
+}
+#tab {
+  padding-block: 80px;
+}
+.tab {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+
+.tab-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 7px;
+  padding-left: 25%;
+}
+.tab-text h1 {
+  font-family: Orbitron;
+  font-size: clamp(1.688rem, 1.521rem + 0.83vw, 2.188rem);
+  font-weight: 600;
+  max-width: 602px;
+  max-height: 44px;
+  width: 100%;
+}
+.tab-ti {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.tab-icon {
+  display: none;
+  color: #ffffff;
+  font-size: 25px;
+}
+.tab-text span {
+  font-family: Orbitron;
+  font-size: clamp(1.625rem, 1.438rem + 0.94vw, 2.188rem);
+  font-weight: 600;
+  max-width: 602px;
+  max-height: 44px;
+  width: 100%;
+  background-image: linear-gradient(97.16deg, #f86cf8 12.04%, #64cef5 81.84%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.tab-text p {
+  font-family: Poppins;
+  font-size: clamp(0.75rem, 0.625rem + 0.63vw, 1.125rem);
+  font-weight: 400;
+  color: #ffffff;
+  max-width: 570px;
+  max-height: 54px;
+  width: 100%;
+  text-align: center;
+}
+.tab-box {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  align-items: center;
+  justify-content: space-between;
+}
+.box-1 {
+  max-width: 334px;
+  max-height: 474px;
+  width: 100%;
+  height: 100%;
+  background: #090823;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.box-2 {
+  max-width: 334px;
+  max-height: 474px;
+  width: 100%;
+  height: 100%;
+  background: #090823;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.box-1 h1 {
+  font-family: Orbitron;
+  font-size: clamp(0.875rem, 0.75rem + 0.63vw, 1.25rem);
+  font-weight: 600;
+  max-width: 274px;
+  max-height: 25px;
+  width: 100%;
+}
+.box-1 p {
+  font-family: Poppins;
+  font-size: clamp(0.563rem, 0.458rem + 0.52vw, 0.875rem);
+  font-weight: 400;
+  max-width: 336px;
+  max-height: 42px;
+  width: 100%;
+}
+.box-2 h1 {
+  font-family: Orbitron;
+  font-size: clamp(0.875rem, 0.75rem + 0.63vw, 1.25rem);
+  font-weight: 600;
+  max-width: 274px;
+  max-height: 25px;
+  width: 100%;
+}
+.box-2 p {
+  font-family: Poppins;
+  font-size: clamp(0.563rem, 0.458rem + 0.52vw, 0.875rem);
+  font-weight: 400;
+  max-width: 336px;
+  max-height: 42px;
+  width: 100%;
+}
+
+.tab-btn {
+  display: flex;
+  gap: 10px;
+}
+.tab-btn button:first-child {
+  background: linear-gradient(97.16deg, #d10ed1 12.04%, #10a3da 81.84%);
+  max-width: 140px;
+  width: 100%;
+  padding: 12px 30px;
+  color: #ffffff;
+  border-radius: 5px;
+  font-size: clamp(0.75rem, 0.667rem + 0.42vw, 1rem);
+  font-weight: 500;
+  border: none;
+}
+.tab-btn button:last-child {
+  background: none;
+  max-width: 140px;
+  width: 100%;
+  padding: 12px 14px 12px 14px;
+  color: #ffffff;
+  border-radius: 5px;
+  font-family: Poppins, sans-serif;
+  font-size: clamp(0.75rem, 0.667rem + 0.42vw, 1rem);
+  font-weight: 500;
+  border: 2px solid #7113a4;
+}
+#park {
+  padding-block: 50px;
+}
+.park {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+.park-text {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+.park-text h1 {
+  font-family: Orbitron, sans-serif;
+  font-size: clamp(1.563rem, 1.354rem + 1.04vw, 2.188rem);
+  font-weight: 600;
+  max-width: 500px;
+  max-height: 44px;
+  width: 100%;
+  text-align: center;
+}
+.park-text span {
+  font-family: Orbitron, sans-serif;
+  font-size: clamp(1.563rem, 1.354rem + 1.04vw, 2.188rem);
+  font-weight: 600;
+  max-width: 373px;
+  max-height: 44px;
+  width: 100%;
+
+  background-image: linear-gradient(97.16deg, #f86cf8 12.04%, #64cef5 81.84%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.park-text p {
+  font-family: Poppins, sans-serif;
+  font-size: clamp(0.75rem, 0.625rem + 0.63vw, 1.125rem);
+  font-weight: 400;
+  max-width: 540px;
+  max-height: 54px;
+  width: 100%;
+  text-align: center;
+}
+#footer {
+  padding-block: 70px;
+  background: #090823;
+}
+
+.footer-tab {
+  display: flex;
+  justify-content: space-between;
+}
+.tab-1 {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.tab-1 h1 {
+  background-image: linear-gradient(97.16deg, #f86cf8 12.04%, #64cef5 81.84%);
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Orbitron;
+  font-size: clamp(2.5rem, 2.292rem + 1.04vw, 3.125rem);
+  font-weight: 700;
+}
+.tab-1 p {
+  font-family: Poppins;
+  font-size: clamp(0.75rem, 0.625rem + 0.63vw, 1.125rem);
+  font-weight: 400;
+  max-width: 400px;
+  width: 100%;
+  max-height: 90px;
+  color: #ffffff;
+}
+.tab-2 {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.tab-2 h2 {
+  font-family: Orbitron;
+  font-size: clamp(0.813rem, 0.667rem + 0.73vw, 1.25rem);
+  font-weight: 700;
+}
+.tab-2 nav {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 9px;
+}
+.tab-2 nav a {
+  font-family: Poppins;
+  font-size: clamp(0.75rem, 0.625rem + 0.63vw, 1.125rem);
+  font-weight: 400;
+  color: #ffffff;
+}
+.tab-3 {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.tab-3 h1 {
+  font-family: Orbitron;
+  font-size: clamp(0.813rem, 0.667rem + 0.73vw, 1.25rem);
+  font-weight: 700;
+}
+.tab-3 span {
+  color: #ffffff;
+  display: flex;
+  gap: 15px;
+  font-size: clamp(1rem, 0.813rem + 0.94vw, 1.563rem);
+}
+.tab-3 p {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  max-width: 250px;
+  width: 100%;
+}
+.tab2-3 {
+  display: flex;
+  gap: 120px;
+}
+.park-2 {
+  display: none;
+  flex-direction: column;
+  gap: 50px;
+}
+.park-h1 {
+  display: none;
+  justify-content: space-between;
+}
+.park-img {
+  overflow-x: auto;
+  display: flex;
+  gap: 120px;
+}
+.park-img img:first-child {
+  animation: img11 20s infinite ease-in-out;
+}
+@keyframes img11 {
+  0% {
+    margin-left: 1%;
+    width: 100%;
+  }
+  50% {
+    margin-left: -50%;
+    width: 100%;
+  }
+  100% {
+    margin-right: 0%;
+    width: 100%;
+  }
+}
